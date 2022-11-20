@@ -36,7 +36,8 @@ function onSubmit(event) {
           `Rejected promise ${position + 1} in ${delayN}ms`
         );
       });
-    delayN += step;
+    delayN += stepN;
+    console.log(  delayN += stepN);
   }
 }
 form.addEventListener('submit', onSubmit);
